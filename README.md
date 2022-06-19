@@ -4,5 +4,11 @@ en uygun ve en hızlı bileti bulabilmelerini sağlayan sistem, aynı zamanda bu
 barındırdığı için kullanıcılara çeşitlilik ve bol seçenek sunar.  Bu proje sayesinde hem bilet satışı yapan firmalar biletlerini daha geniş kesimlere gösterme ve satış 
 fırsatı bulurken hem de bilet almak isteyen kişilerin satışta ki biletleri filtreleme yaparak liste şeklinde görmesi amaçlanmaktadır.
 
-### ER Diyagramı
+### ER Diagram
 ![alt text](https://github.com/EmreKonur/BiletAlmaSitesi/blob/main/biletalllllll.drawio.png?raw=true)
+
+### Default Database Info
+- DBMS = PostgreSQL
+- Database Name : TicketWebSite
+- Port : 5432
+- Password : 12345
