@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>
+        <title>Facelet Title</title>
+        <STYLE TYPE="TEXT/CSS">
+        
+        body 
+        {
+            font:17px "Trebuchet MS", Arial, Helvetica, sans-serif;/*Yazı Tipleri*/
+            background:#EEE;/*Sayfa Background*/
+        }
+ 
+        
+        </STYLE>
+    </h:head>
+    <h:body>
+        <h:form>
+            <br>
+            
+            <h:commandButton action="/panel/bills" value="Bills"/>
+            <h:commandButton action="/panel/company" value="Company"/> 
+            <h:commandButton action="/panel/tickets" value="Tickets"/>
+            <h:commandButton action="/Document/Documents" value="Document"/>
+            </br>
+            
+            <br>
+            <h:commandButton action="/panel/Vehicles/bus" value="Bus"/>
+            <h:commandButton action="/panel/Vehicles/train" value="Train"/>
+            <h:commandButton action="/panel/Vehicles/plane" value="Plane"/>
+            </br>
+            
+            <br>
+            <h:commandButton action="/panel/TravelRoute/bustravelroute" value="BusRoute"/>
+            <h:commandButton action="/panel/TravelRoute/traintravelroute" value="TrainRoute"/>
+            <h:commandButton action="/panel/TravelRoute/planetravelroute" value="PlaneRoute"/>
+            </br>
+            
+            <br>
+            <h:commandButton action="/panel/Seats/busseats" value="BusSeat"/>
+            <h:commandButton action="/panel/Seats/trainseats" value="TrainSeat"/>
+            <h:commandButton action="/panel/Seats/planeseats" value="PlaneSeat"/>
+            </br>
+            
+            
+            <br>
+            <h:commandButton action="/login" value="Login"/>
+            <h:commandButton action="/logout" value="Logout"/>
+            <h:commandButton action="/register" value="Register"/>
+            </br>
+            <h:form>
+                <h:commandButton action="panel/adminpage" value="Admin Page"/>
+            </h:form>
+        </h:form>
+    </h:body>
+   
+</html>
+
