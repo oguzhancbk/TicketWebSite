@@ -8,7 +8,8 @@ fırsatı bulurken hem de bilet almak isteyen kişilerin satışta ki biletleri 
 ![alt text](https://github.com/EmreKonur/BiletAlmaSitesi/blob/main/biletalllllll.drawio.png?raw=true)
 
 ### Default Database Info
-- DBMS = PostgreSQL
-- Database Name : TicketWebSite
+- DBMS : PostgreSQL
+- Technologies : JSF(JavaServerFaces),Glasfish Server,Java,Html,Css
+- Database Name : BiletAlmaSitesi
 - Port : 5432
 - Password : 12345
